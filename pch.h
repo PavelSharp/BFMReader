@@ -42,8 +42,8 @@
 #include "std_ext.hpp"
 #include "tiny_refl.hpp"
 #include "base_types.hpp"
-//TODO перепроверить заголовки
-//TODO перепроверить заголовки assimp
+//TODO РїРµСЂРµРїСЂРѕРІРµСЂРёС‚СЊ Р·Р°РіРѕР»РѕРІРєРё
+//TODO РїРµСЂРµРїСЂРѕРІРµСЂРёС‚СЊ Р·Р°РіРѕР»РѕРІРєРё assimp
 
 namespace fs = std::filesystem;
 namespace ranges = std::ranges;

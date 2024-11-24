@@ -34,9 +34,9 @@ namespace std_ext {
     struct fields_count_t {
         using NR = std::remove_cvref_t<T>;
         constexpr static std::size_t ncount = std::numeric_limits<std::size_t>::max();
-        //TODO Неправильно отработает struct sq { int fl1; int fl2;private:int fl3; };
-        //Приватных полей не должно быть, решение - is_aggregate_v но тогда другие типы,
-        //которые ранее были допустимы перестанут подходить. Подумать над std::standart_layout
+        //TODO РќРµРїСЂР°РІРёР»СЊРЅРѕ РѕС‚СЂР°Р±РѕС‚Р°РµС‚ struct sq { int fl1; int fl2;private:int fl3; };
+        //РџСЂРёРІР°С‚РЅС‹С… РїРѕР»РµР№ РЅРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ, СЂРµС€РµРЅРёРµ - is_aggregate_v РЅРѕ С‚РѕРіРґР° РґСЂСѓРіРёРµ С‚РёРїС‹,
+        //РєРѕС‚РѕСЂС‹Рµ СЂР°РЅРµРµ Р±С‹Р»Рё РґРѕРїСѓСЃС‚РёРјС‹ РїРµСЂРµСЃС‚Р°РЅСѓС‚ РїРѕРґС…РѕРґРёС‚СЊ. РџРѕРґСѓРјР°С‚СЊ РЅР°Рґ std::standart_layout
         template<std::size_t Fields>
         consteval static auto internal_count() {
             if constexpr (Fields > 0)
@@ -221,7 +221,7 @@ namespace std_ext {
             constexpr char space = ' ';
             auto depth = chmismatch(fl1.cbegin(), fl1.cend(), fl2.cbegin(), fl2.cend(), space);
             auto it = std::find_if_not(str.begin(), str.end(), [depth](char c) mutable -> bool { return c == space ? true : depth--; });
-            //TODO индентификатор поля может ещё включать "Unicode character with the Unicode property XID_Continue"
+            //TODO РёРЅРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР»СЏ РјРѕР¶РµС‚ РµС‰С‘ РІРєР»СЋС‡Р°С‚СЊ "Unicode character with the Unicode property XID_Continue"
             auto end_it = std::find_if_not(it, str.end(), [](char c) {return std_ext::ascii_isalpha(c) || std_ext::ascii_isdigit(c) || c=='_';});
             return std::string_view{ it, end_it };
         }
@@ -233,7 +233,7 @@ namespace std_ext {
             constexpr static auto value = std_ext::compile_time::strcat_v<tup, str_num>;
         };
 
-        //Длина и тип массива указаны явно, теперь специализации для пустых типов работают естественно 
+        //Р”Р»РёРЅР° Рё С‚РёРї РјР°СЃСЃРёРІР° СѓРєР°Р·Р°РЅС‹ СЏРІРЅРѕ, С‚РµРїРµСЂСЊ СЃРїРµС†РёР°Р»РёР·Р°С†РёРё РґР»СЏ РїСѓСЃС‚С‹С… С‚РёРїРѕРІ СЂР°Р±РѕС‚Р°СЋС‚ РµСЃС‚РµСЃС‚РІРµРЅРЅРѕ 
         template <class T, std::size_t... Ints>
         constexpr auto field_names_impl = std::array<std::string_view, sizeof...(Ints)>{ extract(get_name<&std::get<Ints>(to_tuple<T>), T, Ints>())... };
 

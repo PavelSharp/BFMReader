@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include "import_bfm.hpp"
 #include "bfm_tmp.hpp"
 #include "utils.hpp"

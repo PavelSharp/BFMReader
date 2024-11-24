@@ -9,7 +9,7 @@ namespace br2proj::skb {
     };
 
     struct skb_bone {
-        fstring<24> name;//TODO. кости 88 89 90 [RAYNE_DRESS.SKB] содержали доп данные после \0. Может быть, это предыдущие имена
+        fstring<24> name;//TODO. РєРѕСЃС‚Рё 88 89 90 [RAYNE_DRESS.SKB] СЃРѕРґРµСЂР¶Р°Р»Рё РґРѕРї РґР°РЅРЅС‹Рµ РїРѕСЃР»Рµ \0. РњРѕР¶РµС‚ Р±С‹С‚СЊ, СЌС‚Рѕ РїСЂРµРґС‹РґСѓС‰РёРµ РёРјРµРЅР°
         int32 unkown1;
         int32 parent_bone_index;
         int32 sibling_bone_index;

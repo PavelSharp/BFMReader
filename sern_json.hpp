@@ -10,7 +10,7 @@ namespace sern2 {
         friend auto& operator<<(auto& wr, json_number v) {
             if constexpr (std::is_same_v<T, bool>)
                 return wr << (v.val ? "true" : "false");
-            else//TODO перейти на std::to_chars
+            else//TODO РїРµСЂРµР№С‚Рё РЅР° std::to_chars
                 return wr << std::format("{}", v.val);
         }
     };
@@ -287,7 +287,7 @@ namespace sern2 {
     struct json_writer<std::basic_string<CharT, Traits, Allocator>> {
         std::basic_string<CharT, Traits, Allocator> data;
         constexpr auto& operator <<(std::string_view v) {
-            //В отличе от оператора +=, использование append осуществляет неявное преобразование между char <--> char8_t
+            //Р’ РѕС‚Р»РёС‡Рµ РѕС‚ РѕРїРµСЂР°С‚РѕСЂР° +=, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ append РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚ РЅРµСЏРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РјРµР¶РґСѓ char <--> char8_t
             return data.append(std::begin(v), std::end(v));
         }
         template<class CharT>

@@ -8,7 +8,7 @@
 
 //TIFFWriteEncodedStrip()
 //https://stackoverflow.com/questions/4624144/c-libtiff-read-and-save-file-from-and-to-memory
-//при просмотре, некоторые изображения лучше преобразовать в 1600x1200; 1280x1024
+//РїСЂРё РїСЂРѕСЃРјРѕС‚СЂРµ, РЅРµРєРѕС‚РѕСЂС‹Рµ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ Р»СѓС‡С€Рµ РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІ 1600x1200; 1280x1024
 //https://stackoverflow.com/questions/3451806/getting-error-when-trying-to-apply-extrasamples-tag-to-a-tiff-file-to-be-writt
 namespace br2proj::tex {
 	class conv_tex {
@@ -55,7 +55,7 @@ namespace br2proj::tex {
             auto tables = std_ext::split_many(data.palette, [](pixel_rgb px) {return std::make_tuple(
                 (short)(px.r), (short)(px.g), (short)(px.b));
                 });//todo delete pointers
-            //todo _TIFFmalloc(), _TIFFrealloc(), и _TIFFfree() 
+            //todo _TIFFmalloc(), _TIFFrealloc(), Рё _TIFFfree() 
             size_t w = tex.header.width, h = tex.header.height;
             auto scan = std::make_unique_for_overwrite<byte[]>(2 * w * h);
             auto mip_it = data.mipmaps.begin();

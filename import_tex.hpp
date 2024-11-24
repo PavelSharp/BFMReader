@@ -11,7 +11,7 @@ namespace br2proj::tex {
 	
 	constexpr pixel_rgba guarantee_rgba(pixel_rgba pix) noexcept{
 		byte* p = (byte*)&pix;
-		//TODO если на архитектуре иной порядок байт чем на этой, то нужно ли делать flip?
+		//TODO РµСЃР»Рё РЅР° Р°СЂС…РёС‚РµРєС‚СѓСЂРµ РёРЅРѕР№ РїРѕСЂСЏРґРѕРє Р±Р°Р№С‚ С‡РµРј РЅР° СЌС‚РѕР№, С‚Рѕ РЅСѓР¶РЅРѕ Р»Рё РґРµР»Р°С‚СЊ flip?
 		return
 			(static_cast<uint32>(p[2])) +
 			(static_cast<uint32>(p[1]) << 8) +
@@ -19,7 +19,7 @@ namespace br2proj::tex {
 			(static_cast<uint32>(p[3]) << 24);
 	}
 	//using pixel_rgb = std::array<byte, 3>;
-	//TODO!!! Гарантируется, ли здесь отсутствие нежелательного выравнивания?(sizeof == 3)
+	//TODO!!! Р“Р°СЂР°РЅС‚РёСЂСѓРµС‚СЃСЏ, Р»Рё Р·РґРµСЃСЊ РѕС‚СЃСѓС‚СЃС‚РІРёРµ РЅРµР¶РµР»Р°С‚РµР»СЊРЅРѕРіРѕ РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ?(sizeof == 3)
  	struct pixel_rgb {byte r, g, b;};
 
 	enum class formats:uint32 { Indexed8 = 1, Indexed8Alpha, ARGB,		first=Indexed8, last=ARGB };
@@ -119,7 +119,7 @@ namespace br2proj::tex {
 		static tex_file sern_read(std::istream& is) {
 			tex_file res{};
 			sern::rread(is, res.header);
-			//TODO Чтение после конца потока должно давать нули. Ещё раз перепроверить, что такие изображения существуют и если да, то написать обертку для istream
+			//TODO Р§С‚РµРЅРёРµ РїРѕСЃР»Рµ РєРѕРЅС†Р° РїРѕС‚РѕРєР° РґРѕР»Р¶РЅРѕ РґР°РІР°С‚СЊ РЅСѓР»Рё. Р•С‰С‘ СЂР°Р· РїРµСЂРµРїСЂРѕРІРµСЂРёС‚СЊ, С‡С‚Рѕ С‚Р°РєРёРµ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ СЃСѓС‰РµСЃС‚РІСѓСЋС‚ Рё РµСЃР»Рё РґР°, С‚Рѕ РЅР°РїРёСЃР°С‚СЊ РѕР±РµСЂС‚РєСѓ РґР»СЏ istream
 			switch (res.header.format)
 			{
 				case formats::Indexed8: res.data = sern::reader<tex_indexed8>::read(is, res.header);break;

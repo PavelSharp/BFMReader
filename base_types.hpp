@@ -16,7 +16,7 @@ namespace br2proj {
     template<typename T>
     using vector = std::vector<T>;
     template<std::size_t Size>
-    using byte_array = std::array<std::uint8_t, Size>;//TODO перейти на std::byte или unsigned char
+    using byte_array = std::array<std::uint8_t, Size>;//TODO РїРµСЂРµР№С‚Рё РЅР° std::byte РёР»Рё unsigned char
 
 	template<std::floating_point T>
 	struct vector2t { T x, y; };
@@ -30,7 +30,7 @@ namespace br2proj {
 	template<typename T>
 	struct bound_boxt { T start, end; };
 
-    //Фиксированные и доступные для сериализации типы
+    //Р¤РёРєСЃРёСЂРѕРІР°РЅРЅС‹Рµ Рё РґРѕСЃС‚СѓРїРЅС‹Рµ РґР»СЏ СЃРµСЂРёР°Р»РёР·Р°С†РёРё С‚РёРїС‹
     template<std::size_t Size>
     using fstring = array<char, Size>;
 	using byte = std::byte;

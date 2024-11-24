@@ -65,7 +65,7 @@ namespace br2proj::smb {
 		int32 triangles_count;
 		vector<point_3f> points;
 		vector<triangle> triangles;
-		byte_array<36> unkown1;//TODO размер Вероятно, triangles_count[20.11.2024]
+		byte_array<36> unkown1;//TODO СЂР°Р·РјРµСЂ Р’РµСЂРѕСЏС‚РЅРѕ, triangles_count[20.11.2024]
 		static smb_collission sern_read(std::istream& is) {
 			smb_collission res;
 			sern::many_rread(is, res.name, res.points_count, res.triangles_count);

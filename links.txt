@@ -1,0 +1,243 @@
+//https://github.com/assimp/assimp/issues/203#issuecomment-817188468
+//https://assimp-docs.readthedocs.io/en/latest/usage/use_the_lib.html?highlight=material#material-system
+//https://habr.com/ru/articles/219509/
+//https://cse125.ucsd.edu/tips/graphics.html
+//https://en.cppreference.com/w/cpp/language/fold
+//https://stackoverflow.com/questions/1198260/how-can-you-iterate-over-the-elements-of-an-stdtuple
+//https://stackoverflow.com/questions/49392738/is-it-legal-to-explicitly-specify-a-generic-lambdas-operator-template-argumen
+//https://stackoverflow.com/questions/6120841/is-it-possible-to-write-auto-cast-operator-outside-a-struct
+//https://github.com/assimp/assimp/issues/1121
+//https://cse125.ucsd.edu/tips/graphics.html
+//https://stackoverflow.com/questions/40807524/skeletal-animation-how-to-manually-derive-assimp-bone-offset-matrix
+//https://stackoverflow.com/questions/40807524/skeletal-animation-how-to-manually-derive-assimp-bone-offset-matrix
+
+https://assimp-docs.readthedocs.io/en/v5.3.0/usage/use_the_lib.html?highlight=aiNode#the-node-hierarchy
+
+https://www.reddit.com/r/BloodRayneSociety/comments/18ewn4f/did_turfster_ever_post_the_source_code_to/?rdt=40603
+
+
+//https://en.cppreference.com/w/cpp/language/sizeof...
+//https://stackoverflow.com/questions/46876119/how-to-pass-around-parameter-packs-in-c
+//https://stackoverflow.com/questions/17381573/order-of-evaluation-of-arguments-to-a-constructor
+//https://www.reddit.com/r/C_Programming/comments/3dfu5w/is_it_possible_to_modify_each_argument_in_a/
+//https://gist.github.com/utilForever/1a058050b8af3ef46b58bcfa01d5375d
+//https://codereview.stackexchange.com/questions/253971/c20-fixedarray-container-dynamically-allocated-fixed-size-array
+
+//https://stackoverflow.com/questions/37029886/how-to-construct-a-tuple-from-an-array
+//https://en.cppreference.com/w/cpp/container/array/tuple_element
+//https://codereview.stackexchange.com/questions/253971/c20-fixedarray-container-dynamically-allocated-fixed-size-array
+//https://stackoverflow.com/questions/62940931/c20-concepts-and-templates-fixe-size-and-resizable-array
+//https://stackoverflow.com/questions/1198260/how-can-you-iterate-over-the-elements-of-an-stdtuple
+//https://stackoverflow.com/questions/20885541/is-braces-constructible-type-trait
+//https://github.com/RedSkittleFox/BinaryLove3
+
+
+
+
+https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa/6442503#6442503
+https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+//https://github.com/cbeck88/visit_struct
+//https://github.com/kelbon/MoreThanTuple
+//https://en.cppreference.com/w/cpp/language/alignas
+//https://riptutorial.com/cplusplus/example/3208/iterating-over-a-parameter-pack
+
+//https://en.sfml-dev.org/forums/index.php?topic=14498.0
+//https://stackoverflow.com/questions/20266153/stdinitializer-list-and-order-of-evaluation-of-the-elements
+//https://stackoverflow.com/questions/76920099/how-to-create-an-octet-type-similar-to-stdbyte-in-c
+https://stackoverflow.com/questions/23321028/is-any-difference-between-stdforwardt-and-stdforwarddecltypet
+
+=============================
+--------------------------------------------------
+1) google -> бука bloodrayne ->
+2) https://www.ctpax-x.org/index.php?goto=files&show=23
+3)https://www.forum.ctpax-x.org/  
+-> поиск Bloodrayne
+4)https://www.forum.ctpax-x.org/index.php?showtopic=319&hl=bloodrayne
+-> GRAFs/All - XentaxWiki -> https://web.archive.org/web/20230817182148/http://wiki.xentax.com/index.php/GRAFs/All
+5)https://web.archive.org/web/20230518103636/https://wiki.xentax.com/index.php/PODArchive3
+
+----Notes---------------------------------------
+https://www.ctpax-x.org/index.php?goto=rules
+https://www.ctpax-x.org/index.php?goto=articles
+--------------------------------------------------
+=============================
+google pod3 file ---->   
+https://github.com/jopadan/libtermpod/wiki/
+
+https://github.com/jopadan/libtermpod/wiki/POD-File-Format-Derivates
+POD3 format needs decompile BloodRayne 2 demo to retrieve CRC algorithm and unknown field names
+Декомпиляция не всей игры а только демо - отличная идея
+
+https://github.com/jopadan/libtermpod/wiki/POD-File-Format-Derivates
+https://github.com/jopadan/libtermpod/wiki/Pod-3-Format-Reference
+
+https://www.nexusmods.com/bloodrayne2/mods/8?tab=posts
+https://web.archive.org/web/20100328140412/https://turfster.cjb.net/
+
+!!!!!!!!!
+https://overclockers.ru/blog/TommTiSystems/show/8936/Scyly_Chego_chitat
+https://forum.zoneofgames.ru/topic/1178-bloodrayne-2/
+!!!!!!!
+https://www.playground.ru/bloodrayne_2/file/bloodrayne_2_pod_encoder_decoder_for_buka_localization-897514
+
+
+
+//https://bitmiracle.github.io/libtiff.net/help/articles/KB/black-and-white.html
+//https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd
+//https://devblogs.microsoft.com/cppblog/vcpkg-is-now-included-with-visual-studio/
+//https://assets.ctfassets.net/oxjq45e8ilak/7exbxBKzOYWUzEg52teiIr/143f98097977125f2130c13d98e625f1/100614_128883408_Denis_Panin_Kak_my_nachali_ispolzovat_vcpkg.pdf
+//http://www.leptonica.org/vs2008doc/building-image-libraries.html
+
+
+https://www.reddit.com/r/cpp_questions/comments/164hz3j/fast_impl_and_stdbit_cast_stdlaunder_and/?rdt=51855
+https://stackoverflow.com/questions/73628314/reinterpret-cast-a-slice-of-byte-array
+https://habr.com/ru/articles/540954/
+
+https://www.reddit.com/r/cpp_questions/comments/100qt5i/can_you_cast_a_byte_array_to_a_pragma_packed/
+https://ru.stackoverflow.com/questions/636162/%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%8B%D1%85-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-reinterpret-cast
+
+https://stackoverflow.com/questions/68659197/cannot-convert-rvalue-stdarray-to-stdspan
+https://www.reddit.com/r/cpp_questions/comments/164hz3j/fast_impl_and_stdbit_cast_stdlaunder_and/?rdt=51855
+https://stackoverflow.com/questions/27055729/c-serialization-use-of-reinterpret-cast-from-char-to-a-struct
+https://stackoverflow.com/questions/53401654/why-was-stdbit-cast-added-if-reinterpret-cast-could-do-the-same
+https://stackoverflow.com/questions/72079593/cast-raw-bytes-to-any-datatype
+https://stackoverflow.com/questions/43342397/serialize-and-deserialize-datas-with-reinterpret-cast
+https://stackoverflow.com/questions/74217057/examples-using-reinterpret-cast-that-do-not-trigger-ub/74217878#74217878
+https://ru.stackoverflow.com/questions/716240/%D0%92-%D1%87%D1%91%D0%BC-%D1%81%D0%BC%D1%8B%D1%81%D0%BB-%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-reinterpret-cast
+https://stackoverflow.com/questions/60090016/convert-byte-array-to-a-pointer-with-problem-of-endian
+https://stackoverflow.com/questions/58320316/can-you-stdbit-cast-to-a-stdarray-to-obtain-the-bytes-of-an-object
+!!!!!!!!!!!!!!!!THAT IS IT!!!!!!!!!!!!!!!!!!!
+https://stackoverflow.com/questions/9059506/reinterpret-cast-for-serializing-data-byte-order-and-alignment-on-receiving-e
+https://stackoverflow.com/questions/61970675/c-alignment-when-casting-byte-buffer-to-another-type
+https://codereview.stackexchange.com/questions/199935/reinterpret-cast-vs-bit-shifts-for-extracting-32-bit-integers-from-bytes-with-e
+https://en.cppreference.com/w/cpp/container/span/as_bytes
+https://en.cppreference.com/w/cpp/memory/start_lifetime_as
+https://ru.stackoverflow.com/questions/616184/%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-alignas
+https://medium.com/@simontoth/daily-bit-e-of-c-alignment-alignof-alignas-std-align-std-max-align-t-c4e614557ed8
+https://stackoverflow.com/questions/76445860/implementation-of-stdstart-lifetime-as
+https://en.cppreference.com/w/cpp/string/byte/memcpy
+https://stackoverflow.com/questions/61276567/c-is-endianness-affecting-fstreams-read-and-write-functions
+https://stackoverflow.com/questions/17132289/how-to-override-ostream-operator-for-already-defined-type
+https://stackoverflow.com/questions/3269767/how-to-output-an-int-in-binary
+https://www.reddit.com/r/programming/comments/5cprac/writing_endianindependent_code_in_c/?rdt=48221
+https://stackoverflow.com/questions/64433293/is-a-contiguous-range-always-a-sized-range
+
+https://stackoverflow.com/questions/71423128/how-can-i-static-assert-to-disallow-mixed-endianness-in-a-non-templated-member
+https://en.cppreference.com/w/cpp/numeric/byteswap
+https://stackoverflow.com/questions/105252/how-do-i-convert-between-big-endian-and-little-endian-values-in-c
+https://stackoverflow.com/questions/74496713/how-to-get-the-type-of-the-values-in-a-c20-stdranges-range
+!!!!!!!!!!!!!END THAT IS IT!!!!!!!!!!!!!!!!!
+ССЫЛКИ &&
+https://stackoverflow.com/questions/13725747/what-are-the-reference-collapsing-rules-and-how-are-they-utilized-by-the-c-st
+http://thbecker.net/articles/rvalue_references/section_08.html
+
+
+https://stackoverflow.com/questions/9244563/writing-integer-to-binary-file-using-c
+https://stackoverflow.com/questions/71354023/is-there-a-standard-binary-representation-of-integer-data-types-in-c20
+https://ru.stackoverflow.com/questions/848131/%D0%97%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-stdinvoke
+https://stackoverflow.com/questions/58600117/c-concept-isnt-easy-to-use
+https://stackoverflow.com/questions/38304847/how-does-a-failed-static-assert-work-in-an-if-constexpr-false-block
+https://stackoverflow.com/questions/23321028/is-any-difference-between-stdforwardt-and-stdforwarddecltypet
+https://stackoverflow.com/questions/48016503/template-specialization-and-perfect-forwarding
+https://stackoverflow.com/questions/45172034/exclude-first-n-arguments-from-parameter-pack
+https://habr.com/ru/articles/479462/
+https://stackoverflow.com/questions/51128745/how-can-i-check-if-a-template-type-parameter-is-a-character-type-or-a-string-typ
+
+https://stackoverflow.com/questions/670734/what-is-a-pointer-to-class-data-member-and-what-is-its-use
+https://www.reddit.com/r/cpp/comments/1890jr9/reflectcpp_automatic_field_name_extraction_from/
+https://www.reddit.com/r/cpp_questions/comments/12u74sp/how_to_deal_with_charwchar_t_stdstringstdstring/?rdt=42053
+https://cplusplus.com/files/tutorial.pdf
+https://stackoverflow.com/questions/69777828/c-lambda-copy-beahaviour
+
+ANY VISITOR
+https://en.cppreference.com/w/cpp/utility/any
+
+
+https://stackoverflow.com/questions/49098612/is-c17-stdto-chars-adding-a-null-terminator
+https://stackoverflow.com/questions/77222116/what-is-the-parameter-type-of-a-function-that-works-read-only-on-a-range
+https://stackoverflow.com/questions/38955940/how-to-concatenate-static-strings-at-compile-time
+
+Структурная привязка
+https://stackoverflow.com/questions/49340829/how-to-write-a-concept-for-structured-bindings
+лямбда захват с объявлением
+https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created
+
+https://stackoverflow.com/questions/13842468/comma-in-c-c-macro
+https://stackoverflow.com/questions/5957679/is-there-a-way-to-use-c-preprocessor-stringification-on-variadic-macro-argumen
+https://stackoverflow.com/questions/6707148/foreach-macro-on-macros-arguments
+https://stackoverflow.com/questions/7666344/are-empty-macro-arguments-legal-in-c11
+https://stackoverflow.com/questions/1872220/is-it-possible-to-iterate-over-arguments-in-variadic-macros
+https://stackoverflow.com/questions/8640393/move-capture-in-lambda
+APPLY1
+https://stackoverflow.com/questions/49728626/do-structured-bindings-and-forwarding-references-mix-well
+Продление жизни временных значений в С++: рецепты и подводные камни
+https://habr.com/ru/articles/669474/
+
+https://cppinsights.io/
+
+forward as tuple
+https://stackoverflow.com/questions/20162903/template-parameter-packs-access-nth-type-and-nth-element
+https://stackoverflow.com/questions/68407390/are-concepts-with-only-a-boolean-literal-value-ill-formed-no-diagnostic-require
+
+О ссылках
+https://habr.com/ru/articles/322132/
+https://habr.com/ru/articles/441742/
+https://habr.com/ru/articles/441742/
+
+magic enum
+https://stackoverflow.com/questions/28828957/how-to-convert-an-enum-to-a-string-in-modern-c?answertab=createdasc#tab-top
+
+Ghostbusters: The Video Game AND BFM
+https://forum.xen-tax.com/viewtopic.php@t=14565.html
+https://github.com/gibbed/Gibbed.Ghostbusters
+
+ABOUT JSON
+https://www.rfc-editor.org/rfc/rfc8259#section-7
+https://stackoverflow.com/questions/2417588/escaping-a-c-string
+https://stackoverflow.com/questions/4264877/why-is-the-slash-an-escapable-character-in-json
+https://stackoverflow.com/questions/1580647/json-why-are-forward-slashes-escaped
+
+СРАВНИВАТЬ СТРОКИ БЕЗ РЕГИСТРА
+User-defined character traits may be used to provide case-insensitive comparison:
+https://en.cppreference.com/w/cpp/string/char_traits
+
+
+https://stackoverflow.com/questions/68472720/stdto-chars-minimal-floating-point-buffer-size
+https://stackoverflow.com/questions/14741144/stdstringstream-vs-stdstring-for-concatenating-many-strings
+https://xakep.ru/2019/08/23/nezumi-hacking-guide-5/
+
+https://stackoverflow.com/questions/8093882/using-c-base-class-constructors
+https://stackoverflow.com/questions/74481793/use-stdstring-view-size-in-template-parameter-from-nttp-constructor
+
+О ПРЕОБРАЗОВАНИЕ КОДИРОВОК UTF8
+https://stackoverflow.com/questions/55556200/convert-between-stdu8string-and-stdstring
+
+https://stackoverflow.com/questions/55556200/convert-between-stdu8string-and-stdstring
+https://stackoverflow.com/questions/55556200/convert-between-stdu8string-and-stdstring
+https://www.reddit.com/r/cpp_questions/comments/m8p6l3/will_c_ever_have_pattern_matching/
+https://www.fluentcpp.com/2020/10/16/tie-make_tuple-forward_as_tuple-how-to-build-a-tuple-in-cpp/
+
+BR2 AGAIN
+https://www.reddit.com/r/ghostbusters/comments/bvhsia/new_game_modding/
+https://www.playground.ru/bloodrayne_2/file/bloodrayne_2_testovye_urovni-1628614 -> https://www.youtube.com/@Cleon999/videos ->
+https://web.archive.org/web/20121101000000*/http://www.bloodrayne2.ru
+https://web.archive.org/web/20101128042549/http://poopinmymouth.com/tutorial/workflow.htm
+https://vk.com/museumcleon999
+https://vk.com/blood_rayne_fan
+https://gamebanana.com/projects/36958
+https://forum.xen-tax.com/viewtopic.php@t=14565.html
+https://steamcommunity.com/sharedfiles/filedetails/?id=1613484767
+https://www.mediafire.com/folder/o35i888mdsx4a/Bloodrayne
+
+Скелетная анимация и Assimp
+https://triplepointfive.github.io/ogltutor/tutorials/tutorial38.html
+https://www.steps3d.narod.ru/tutorials/skinning-tutorial.html
+https://learnopengl.com/Guest-Articles/2020/Skeletal-Animation
+http://tfc.duke.free.fr/coding/md5-specs-en.html
+https://www.3dgep.com/loading-and-animating-md5-models-with-opengl/
+https://vladh.net/game-engine-skeletal-animation/
+
+Набор реккомендованный header-only библиотек
+https://github.com/jopadan/awesome-hpp?tab=readme-ov-file#state-machine
+Как зайти в отладочное меню (SPAMRAIDDASTARDLYCAN)
+https://x.com/madmonkey1907/status/1026837242894053378
